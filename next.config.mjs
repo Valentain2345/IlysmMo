@@ -9,6 +9,8 @@ const nextConfig = {
   },
 
   output: 'export',
+  basePath: '/IlysmMo',
+  assetPrefix: '/IlysmMo',
   trailingSlash: true,
 }
 
