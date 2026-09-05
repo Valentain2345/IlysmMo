@@ -3,9 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Sealed With Love',
-  description: 'A little paper letter, sealed with love.',
-  generator: 'v0.app',
+  title: 'Sellada con cariño',
+  description: 'Una pequeña carta para mi querida novia.Hecha con amor',
 }
 
 export const viewport: Viewport = {

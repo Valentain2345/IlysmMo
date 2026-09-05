@@ -25,23 +25,23 @@ export default function Page() {
               className="letter-button"
               type="button"
               onClick={() => state === 'revealed' && setState('read')}
-              aria-label={state === 'revealed' ? 'Tap to read the letter' : 'Love letter'}
+              aria-label={state === 'revealed' ? 'Tocar para leer' : 'Carta de amor'}
               disabled={state !== 'revealed'}
             >
               <span className={`letter-card ${state === 'read' ? 'letter-is-read' : ''}`}>
                 <span className="letter-front">
                   <span className="front-mark">♡</span>
-                  <span className="front-title">Tap to read</span>
+                  <span className="front-title">Tocar para leer</span>
                   <span className="front-rule" />
-                  <span className="front-small">A letter, just for you</span>
+                  <span className="front-small">Una carta para mi amada Mo</span>
                 </span>
                 <span className="letter-back">
-                  <span className="back-date">September 5, 2026</span>
-                  <span className="back-greeting">My dearest,</span>
-                  <span className="back-body">Some feelings are too lovely to keep folded away. Thank you for being the softest part of my every day, the quiet joy I carry with me wherever I go.</span>
-                  <span className="back-body">If I could send one thing across the miles, it would be this little reminder: you are loved, deeply and completely.</span>
-                  <span className="back-signoff">Always yours,</span>
-                  <span className="back-name">with all my heart</span>
+                  <span className="back-date">Septiembre 5 de 2026</span>
+                  <span className="back-greeting">Mi querida Mo</span>
+                  <span className="back-body">Estar con vos es hermoso y me haces reir muchisimo, me encanta todo de vos siempre. Todos los días soy cada vez mas feliz y mas locamente perdido por vos, pienso que no puedo mas y si puedo, es increible</span>
+                  <span className="back-body">Te amo muchisimo, las palabras no me alcanzan para describir la felicidad que me das y la sensacion de calidez y lo especial que me haces sentir</span>
+                  <span className="back-signoff">Con muchisimo amor</span>
+                  <span className="back-name">Tu amado Valen</span>
                 </span>
               </span>
             </button>
